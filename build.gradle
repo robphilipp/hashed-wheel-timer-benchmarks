@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+group 'com.piggy.spiked'
+version '0.0.1-SNAPSHOT'
+
+sourceCompatibility = 1.10
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile files('../hashed-wheel-timer/build/libs/hashed-wheel-timer-0.0.1-SNAPSHOT.jar')
+
+    // logging
+    compile 'org.slf4j:slf4j-api:1.7.25'
+    compile 'ch.qos.logback:logback-classic:1.0.13'
+
+    // testing
+    testCompile 'junit:junit:4.12'
+}
