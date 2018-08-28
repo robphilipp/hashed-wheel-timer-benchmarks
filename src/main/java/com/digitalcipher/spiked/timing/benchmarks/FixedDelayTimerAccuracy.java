@@ -1,8 +1,8 @@
-package com.piggy.spiked.timing.benchmarks;
+package com.digitalcipher.spiked.timing.benchmarks;
 
-import com.piggy.spiked.timing.HashedWheelTimer;
-import com.piggy.spiked.timing.WaitStrategies;
-import com.piggy.spiked.timing.WaitStrategy;
+import com.digitalcipher.spiked.timing.HashedWheelTimer;
+import com.digitalcipher.spiked.timing.WaitStrategies;
+import com.digitalcipher.spiked.timing.WaitStrategy;
 
 import java.util.ArrayList;
 import java.util.List;
