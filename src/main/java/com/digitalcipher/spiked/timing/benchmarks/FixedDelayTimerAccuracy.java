@@ -48,7 +48,7 @@ public class FixedDelayTimerAccuracy {
                 .build()
                 .start();
 
-        final long delay = 200;
+        final long delay = 100;
         final TimeUnit delayUnits = TimeUnit.MICROSECONDS;
         final long timeout = 1;
         final TimeUnit timeoutUnits = TimeUnit.SECONDS;

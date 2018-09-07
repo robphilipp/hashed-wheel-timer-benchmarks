@@ -12,8 +12,8 @@ repositories {
 }
 
 dependencies {
-//    compile files('../hashed-wheel-timer/build/libs/hashed-wheel-timer-0.0.1-SNAPSHOT.jar')
-    compile 'com.digitalcipher:hashed-wheel-timer:0.0.3'
+//    compile files('../hashed-wheel-timer/build/libs/hashed-wheel-timer-0.0.4-SNAPSHOT.jar')
+    compile 'com.digitalcipher:hashed-wheel-timer:0.0.4'
 
     // logging
     compile 'org.slf4j:slf4j-api:1.7.25'

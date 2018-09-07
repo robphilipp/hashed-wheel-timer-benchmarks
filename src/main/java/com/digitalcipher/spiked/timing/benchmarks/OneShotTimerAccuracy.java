@@ -13,11 +13,11 @@ import java.util.concurrent.TimeUnit;
 public class OneShotTimerAccuracy {
 
     public static void main(final String... args) {
-        final long resolution = 200L;
+        final long resolution = 100L;
         final TimeUnit resolutionUnits = TimeUnit.MICROSECONDS;
         final int numBuckets = 512;
-        final WaitStrategy waitStrategy = WaitStrategies.busySpinWait();
-//        final WaitStrategy waitStrategy = WaitStrategies.yieldingWait();
+//        final WaitStrategy waitStrategy = WaitStrategies.busySpinWait();
+        final WaitStrategy waitStrategy = WaitStrategies.yieldingWait();
 //        final WaitStrategy waitStrategy = WaitStrategies.sleepWait();
 
         final HashedWheelTimer timer = HashedWheelTimer.builder()
